@@ -1,9 +1,8 @@
-﻿﻿<script setup>
+﻿<script setup>
 import { ref } from 'vue'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Button } from '@/components/ui/button'
-import { AlertCircleIcon, CheckCircle2Icon, PopcornIcon } from 'lucide-vue-next'
 import { Alert, AlertDescription, AlertTitle, } from '@/components/ui/alert'
 const email = ref('')
 const password = ref('')
